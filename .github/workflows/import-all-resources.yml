@@ -8,10 +8,8 @@ on:
         required: true
         type: choice
         options:
-          - 'LowerDeckLabs'
-          - 'Production'
-          - 'Staging'
-          - 'Development'
+          - 'SourceEnv'
+          - 'MyFirstEnv'
       update_terraform:
         description: 'Update production-ready Terraform files'
         required: false
